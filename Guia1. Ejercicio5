@@ -1,0 +1,10 @@
+Algoritmo guia1_ejercicio5
+	Definir peso, estatura Como Real
+	Escribir "Calcule su masa corporal"
+	Escribir "Por favor ingrese su peso"
+	Leer peso
+	Escribir "Ahora por favor ingrese su estatura"
+	Leer estatura
+	Escribir "Su ICM es"
+	Escribir peso*(estatura)^2
+FinAlgoritmo

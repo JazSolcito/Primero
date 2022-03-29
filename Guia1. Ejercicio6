@@ -1,0 +1,12 @@
+Algoritmo guia1_ejercicio6
+	Definir num1, num2 Como Entero
+	Definir Porcentaje Como Real
+	Escribir "Ingrese un número para calcular el porcentaje"
+	Leer num1
+	Escribir "Ingrese el porcentaje que desea calcular"
+	Leer num2
+	Porcentaje <- num1*num2/100
+	Escribir "el porcentaje equivale a"
+	Escribir Porcentaje
+	
+FinAlgoritmo

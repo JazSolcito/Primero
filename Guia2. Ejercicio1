@@ -1,0 +1,15 @@
+Algoritmo ejercicio1_guia1_parImpar
+	Definir num como Entero
+	Escribir "Ingrese un número del 1 al 100"
+	
+	Leer num 
+	
+	si num > 1 y num < 100 entonces 
+		si num es Par Entonces
+			Escribir "El número es par"
+			Sino Escribir "El número es Impar"
+			FinSi
+		Sino Escribir "Error"
+	FinSi
+	
+FinAlgoritmo

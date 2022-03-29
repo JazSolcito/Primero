@@ -1,0 +1,11 @@
+Algoritmo guia1_Ejercicio9_AreaDeUnTriangulo
+	
+	Definir base, altura, área Como Real
+	Escribir "Ingrese base  y abajo altura"
+	Leer base, altura
+	área <- base*altura /2
+	Escribir "El valor del área es"
+	Escribir área
+	
+	
+FinAlgoritmo

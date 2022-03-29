@@ -1,0 +1,51 @@
+Algoritmo guia2_ejercicio2_SueldosPorCategorias
+	
+	Definir sBruto, jub, obraSocial, bono, sNeto Como Real
+	Definir Categoria Como Entero
+	
+	Escribir "Ingrese su categoria para informarle su sueldo"
+	Escribir "Coloque 1 si es Repositor, 2 si es Cajero, 3 si es Supervisor"
+	Leer Categoria
+	
+	Segun Categoria Hacer
+		Opcion 1:
+			sBruto = 42335
+			jub=sBruto*0.11
+			obraSocial=sBruto*0.03
+			bono=sBruto*0.08
+			sNeto= sBruto-jub-obraSocial
+			Escribir "El sueldo Bruto es: $" sBruto
+			Escribir "El empleado pertenece a la categoría Repositor"
+			Escribir "El sueldo neto es: $" sNeto
+			Escribir "El descuento por jubilación es: $" jub
+			Escribir "El descuento por Obra Social es: $" obraSocial
+			Escribir "El Bono equivale a: $" bono
+
+		Opcion 2:
+			sBruto=48630.89
+			jub=sBruto*0.11
+			obraSocial=sBruto*0.03
+			sNeto= sBruto-jub-obraSocial
+			Escribir "El sueldo Bruto es: $" sBruto
+			Escribir "El empleado pertenece a la categoría Cajero"
+			Escribir "El sueldo neto es: $" sNeto
+			Escribir "El descuento por jubilación es: $" jub
+			Escribir "El descuento por Obra Social es: $" obraSocial
+
+			Opcion 3:
+			sBruto = 55560.20
+			jub=sBruto*0.11
+			obraSocial=sBruto*0.03
+			sNeto= sBruto-jub-obraSocial
+			Escribir "El sueldo Bruto es: $" sBruto
+			Escribir "El empleado pertenece a la categoría Supervisor"
+			Escribir "El sueldo neto es: $" sNeto
+			Escribir "El descuento por jubilación es: $" jub
+			Escribir "El descuento por Obra Social es: $" obraSocial
+
+		De Otro Modo:
+			Escribir "La categoria es incorrecta"
+			
+		
+	FinSegun
+FinAlgoritmo

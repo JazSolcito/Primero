@@ -1,0 +1,12 @@
+Algoritmo guia1_ejercicio7
+	Definir num1, num2, IVA Como Real
+	
+	Escribir "Ingrese el valor del producto sin IVA"
+	Leer num1
+	IVA <- 0.21
+	num2 <- num1 * IVA
+	
+	Escribir "El IVA de este producto equivale a "
+	Escribir num2
+	
+FinAlgoritmo

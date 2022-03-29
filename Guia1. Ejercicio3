@@ -1,0 +1,12 @@
+Algoritmo guia1_ejercicio3
+	Definir base, exponente, potencia Como Entero
+	
+	Escribir "Por favor ingrese la base y presione enter"
+	Leer base;
+	Escribir "Ahora ingrese el exponente y presione enter"
+	leer exponente;
+	potencia <- base*exponente
+	Escribir "El resultado de la potencia es"
+	Escribir potencia
+		
+FinAlgoritmo
