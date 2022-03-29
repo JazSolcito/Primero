@@ -1,0 +1,25 @@
+Algoritmo guia1_Ejercicio10_CantidadDePartidos
+	
+	Definir ganados, empatados, perdidos, jugados Como Entero
+	Definir Puntaje Como Real
+	
+	Escribir "Ingrese cantidad de partidos ganados"
+	Leer ganados
+	Escribir "Ingrese cantidad de partidos empatados"
+	Leer empatados
+	Escribir "Ingrese cantidad de partidos perdidos"
+	Leer perdidos
+	
+	Mostrar "Cantidad de partidos jugados:"
+	jugados <- ganados+ empatados + perdidos
+	Escribir jugados 
+	
+	ganados <- ganados*3
+	empatados <- empatados
+	perdidos <- 0
+
+	Puntaje <- ganados+ empatados+ perdidos 
+	Escribir "El puntaje total de partidos jugados es:"
+	Mostrar Puntaje
+	
+FinAlgoritmo

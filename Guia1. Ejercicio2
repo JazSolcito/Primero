@@ -1,0 +1,9 @@
+Algoritmo guia1_ejercicio2
+	
+	Escribir "Escriba dos numeros para realizar la suma"
+	Definir num1, num2 Como Entero
+	Leer num1, num2
+	Escribir num1 + num2
+	
+	
+FinAlgoritmo
